@@ -1,0 +1,24 @@
+.footer {
+  padding: 3em 0;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.footer__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--clr-fg);
+}
+
+.react-footer {
+  font-size: 1.5rem;
+  margin-left: 0.2rem;
+  color: #61dbfb;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 2em;
+    margin-top: 3em;
+  }
+}

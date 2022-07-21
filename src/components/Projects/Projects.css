@@ -1,0 +1,74 @@
+.projects__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+.project-icon {
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+.react {
+  color: #61dbfb;
+}
+
+.html {
+  color: #e56027;
+}
+
+.css {
+  color: #238bc2;
+}
+
+.javascript {
+  color: #ead41c;
+}
+
+.node {
+  color: #89bb3c;
+}
+
+.firebase {
+  color: #ffcb2b;
+}
+
+.tailwind {
+  color: #38bdf8;
+}
+
+.material-ui {
+  color: #007fff;
+}
+
+.netlify {
+  color: #25c7c7;
+}
+
+.htmlIcon {
+  color: orange;
+}
+
+.git {
+  color: #f1502f;
+}
+
+.react-icon {
+  font-size: 1.5rem;
+  color: #61dbfb;
+}
+
+.rotate {
+  animation: spin 9s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
