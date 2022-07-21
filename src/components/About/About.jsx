@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className='about center'>
       {name && (
-        <h1>
+        <h1 data-aos='fade-up'>
           <img
             className='waving-hand wave'
             src={wavingHand}
@@ -22,10 +22,20 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {role && (
+        <h2 className='about__role' data-aos='fade-up' data-aos-delay='100'>
+          A {role}.
+        </h2>
+      )}
+      <p className='about__desc' data-aos='fade-up' data-aos-delay='200'>
+        {description && description}
+      </p>
 
-      <div className='about__contact center'>
+      <div
+        className='about__contact center'
+        data-aos='fade-up'
+        data-aos-delay='300'
+      >
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>

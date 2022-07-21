@@ -4,7 +4,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <div className='project' data-aos='fade-up' data-aos-delay='100'>
     <h3>{project.name}</h3>
 
     <img className='project-img' src={project.image} alt={project.name} />

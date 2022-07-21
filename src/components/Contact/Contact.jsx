@@ -8,7 +8,9 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <h2 className='section__title'>📫 Contact</h2>
+      <h2 className='section__title' data-aos='fade-up'>
+        📫 Contact
+      </h2>
       {/* <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
           Email me
@@ -17,7 +19,11 @@ const Contact = () => {
 
       <div className='contact-info-container'>
         <ContactContainer>
-          <div className='contact-content' data-aos='fade-up'>
+          <div
+            className='contact-content'
+            data-aos='fade-up'
+            data-aos-delay='100'
+          >
             <p>
               🤝 Send me an email at
               <span> nelsonguerra.tech@outlook.com</span>
