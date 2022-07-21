@@ -11,7 +11,6 @@ const Footer = () => (
     <a
       href='https://github.com/rajshekhar26/cleanfolio'
       className='link footer__link'
-      data-aos='fade-up'
     >
       Made with ♥️ by Nelson Guerra | built with {reactIcon}
     </a>
