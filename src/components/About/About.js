@@ -1,13 +1,13 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
-import './About.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { about } from '../../portfolio';
+import './About.css';
 
 // img
-import wavingHand from '../../assets/waving-hand.png'
+import wavingHand from '../../assets/waving-hand.png';
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social } = about;
 
   return (
     <div className='about center'>
@@ -59,7 +59,7 @@ const About = () => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
