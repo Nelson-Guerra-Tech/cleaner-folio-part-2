@@ -30,8 +30,8 @@ const about = {
   name: 'Nelson Guerra',
   role: 'Front End Developer',
   description: `An Army Veteran & Web Developer with a passion for
-              technology. Based out of Georgia 🌎 I consider myself a 'forever student' eager to both
-              build on my academic foundations in web development. Focused on designing & programming front-end applications.`,
+              technology. Based out of Georgia 🌎 I consider myself a 'forever student' eager to continue
+              building on my academic foundations in web development. Focused on designing & programming front-end applications.`,
   resume: 'https://1drv.ms/b/s!ArPqeXXG-P85f8KkvguCJ7r_LZY',
   social: {
     linkedin: 'https://www.linkedin.com/in/nelson-guerra-7075b413a/',
